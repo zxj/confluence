@@ -1,1 +1,3 @@
 baseurl: /confluence
+markdown: redcarpet
+highlighter: pygments
