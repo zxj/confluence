@@ -3,9 +3,12 @@ layout: default
 title: 首页
 ---
 
-<ul class="post-directory">
+<div class="post-directory">
+	<ul>
 	{% for post in site.posts %}
 	<li>{{ post.date | date_to_string }} <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
 	{% endfor %}
-</ul>
+	</ul>
+</div>
+
 

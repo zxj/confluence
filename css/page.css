@@ -52,6 +52,7 @@ a:hover{
 }
 .post-directory{
 	margin:20px 0;
+	min-height: 1000px;
 }
 .post-directory li{
 	height: 25px;
