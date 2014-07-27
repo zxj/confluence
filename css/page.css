@@ -50,3 +50,10 @@ a:hover{
 	background:url(http://static.wenku.bdimg.com/static/pay/ui/book_view/toolsArea/img/bg_7bcc7fe8.png) no-repeat -1px -583px;
 	_background-image:url(http://static.wenku.bdimg.com/static/pay/ui/book_view/toolsArea/img/bg_ie6_830fcb89.png);
 }
+.post-directory{
+	margin:20px 0;
+}
+.post-directory li{
+	height: 25px;
+	line-height: 25px;
+}
