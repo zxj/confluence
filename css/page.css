@@ -59,3 +59,12 @@ a:hover{
 	height: 25px;
 	line-height: 25px;
 }
+.post-directory .date{
+	color:#93a1a1;
+}
+.post-directory a{
+	color:#073642;
+}
+.post-directory a:hover{
+	text-decoration: underline;
+}
