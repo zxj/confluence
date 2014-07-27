@@ -1,46 +1,52 @@
 body{
-		background-color: #ede8d5;
-		color:#333;
-	}
-	#doc{
-		width:850px;
-		position: relative;
-		background-color: #faf7ed;
-		margin:0 auto;
-		_text-align:left;
-	}
-	#bd{
-		box-shadow: -7px 0 7px -7px rgba(51,51,51,.07),7px 0 7px -7px rgba(51,51,51,.07),0 8px 8px -8px rgba(51,51,51,.07);
-		padding-top:1px;
-	}
-	.txt-wrapper{
-		position:relative;
-		width:652px;
-		margin:0 auto;
-		word-break:break-all;
-		word-wrap:break-word;
-		font-family: "微软雅黑","Microsoft Yahei";
-		color: #333;
-		height: 1000px;
-	}
-	.txt-wrapper p{
-		margin:23px 0;
-		line-height: 2;
-		text-indent: 2em;
-	}
-	.toolbar{
-		width:850px;
-		height: 50px;
-		margin: auto;
-		overflow: hidden;
-		background-color: #faf7ed;
-		box-shadow: -7px 0 7px -7px rgba(51,51,51,.07),7px 0 7px -7px rgba(51,51,51,.07);
-	}
-	.toolbar .caption{
-		width: 652px;
-		height: 50px;
-		margin:auto;
-		line-height: 50px;
-		background:url(http://static.wenku.bdimg.com/static/pay/ui/book_view/toolsArea/img/bg_7bcc7fe8.png) no-repeat -1px -583px;
-		_background-image:url(http://static.wenku.bdimg.com/static/pay/ui/book_view/toolsArea/img/bg_ie6_830fcb89.png);
-	}
+	background-color: #ede8d5;
+	color:#333;
+}
+a{
+	color:#93a1a1;
+	text-decoration: none;
+}
+a:hover{
+	color:#073642;
+}
+#doc{
+	width:850px;
+	position: relative;
+	background-color: #faf7ed;
+	margin:0 auto;
+	_text-align:left;
+}
+#bd{
+	box-shadow: -7px 0 7px -7px rgba(51,51,51,.07),7px 0 7px -7px rgba(51,51,51,.07),0 8px 8px -8px rgba(51,51,51,.07);
+	padding-top:1px;
+}
+.txt-wrapper{
+	position:relative;
+	width:652px;
+	margin:0 auto;
+	word-break:break-all;
+	word-wrap:break-word;
+	font-family: "微软雅黑","Microsoft Yahei";
+	color: #333;
+}
+.txt-wrapper p{
+	margin:10px 0;
+	line-height: 2;
+	text-indent: 2em;
+}
+.toolbar{
+	width:850px;
+	height: 50px;
+	margin: auto;
+	overflow: hidden;
+	background-color: #faf7ed;
+	box-shadow: -7px 0 7px -7px rgba(51,51,51,.07),7px 0 7px -7px rgba(51,51,51,.07);
+}
+.toolbar .caption{
+	width: 652px;
+	height: 50px;
+	margin:auto;
+	line-height: 50px;
+	background:url(http://static.wenku.bdimg.com/static/pay/ui/book_view/toolsArea/img/bg_7bcc7fe8.png) no-repeat -1px -583px;
+	_background-image:url(http://static.wenku.bdimg.com/static/pay/ui/book_view/toolsArea/img/bg_ie6_830fcb89.png);
+}
