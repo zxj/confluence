@@ -1,0 +1,9 @@
+<div class="toolbar">
+	<div class="caption">
+		{% if page.url =='index.html' %}
+		<a href="{{site.baseurl}}">首页</a>
+		{% else %}
+		<a href="{{site.baseurl}}/{{page.url}}">{{page.title}}</a>
+		{% endif %}
+	</div>
+</div>
