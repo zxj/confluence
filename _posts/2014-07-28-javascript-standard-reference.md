@@ -1,3 +1,8 @@
+---
+layout: default
+title: Javascript标准参考阅读笔记
+---
+
 ##语法
 
 ###数据类型
