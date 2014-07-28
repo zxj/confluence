@@ -9,19 +9,21 @@ title: Javascript标准参考阅读笔记
 
 - 六种数据类型，两个特殊类型
 
-	> 数值型
+> 数值型、字符型、布尔型、函数型、Object、数组型、null,undefined(两个特殊类型)
 
-	> 字符型
+- null和undefined
+	
+> 两者都表示“空、不存在”的意思，从语义上来说：null表示空对象，用来表示对象；undefined表示变量未定义，用来表示变量。
 
-	> 布尔型
+> 转换为'布尔类型'后，两者是等价的
 
-	> 函数型
+{% highlight javascript %}
 
-	> Object
+null==undefined //true
 
-	> 数组型
+{% endhighlight %}
 
-	> null,undefined(两个特殊类型)
+
 
 **Object**
 
