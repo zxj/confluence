@@ -9,6 +9,13 @@ a{
 a:hover{
 	color:#073642;
 }
+code,pre{
+	font-family: Consolas,"Courier New",Courier,FreeMono,monospace;
+	margin:1em 0 1.5em;
+	background-color: #ede8d5;
+}
+.highlight{background:#111;padding:.2em .9em;margin-bottom:1em;font:normal normal normal 115%/normal Monaco,'Courier New','DejaVu Sans Mono','Bitstream Vera Sans Mono',monospace!important;line-height:1.1em;overflow:auto;border:1px solid #CCC;-moz-border-radius:7px;-webkit-border-radius:7px;border-radius:7px}code,pre{font-family:Consolas,"Courier New",Courier,FreeMono,monospace;margin:1em 0 1.5em;background-color:#111}.highlight span{font-family:Consolas,"Courier New",Courier,FreeMono,monospace}.highlight .hll{background-color:#49483e}.highlight{color:#f8f8f2}.highlight .c{color:#75715e}.highlight .err{color:#960050;background-color:#1e0010}.highlight .k{color:#66d9ef}.highlight .l{color:#ae81ff}.highlight .n{color:#f8f8f2}.highlight .o{color:#f92672}.highlight .p{color:#f8f8f2}.highlight .c1,.highlight .cm,.highlight .cp,.highlight .cs{color:#75715e}.highlight .ge{font-style:italic}.highlight .gs{font-weight:700}.highlight .kc,.highlight .kd{color:#66d9ef}.highlight .kn{color:#f92672}.highlight .kp,.highlight .kr,.highlight .kt{color:#66d9ef}.highlight .ld{color:#e6db74}.highlight .m{color:#ae81ff}.highlight .s{color:#e6db74}.highlight .na{color:#a6e22e}.highlight .nb{color:#f8f8f2}.highlight .nc{color:#a6e22e}.highlight .no{color:#66d9ef}.highlight .nd{color:#a6e22e}.highlight .ni{color:#f8f8f2}.highlight .ne,.highlight .nf{color:#a6e22e}.highlight .nl,.highlight .nn{color:#f8f8f2}.highlight .nx{color:#a6e22e}.highlight .py{color:#f8f8f2}.highlight .nt{color:#f92672}.highlight .nv{color:#f8f8f2}.highlight .ow{color:#f92672}.highlight .w{color:#f8f8f2}.highlight .mf,.highlight .mh,.highlight .mi,.highlight .mo{color:#ae81ff}.highlight .s2,.highlight .sb,.highlight .sc,.highlight .sd{color:#e6db74}.highlight .se{color:#ae81ff}.highlight .s1,.highlight .sh,.highlight .si,.highlight .sr,.highlight .ss,.highlight .sx{color:#e6db74}.highlight .bp,.highlight .vc,.highlight .vg,.highlight .vi{color:#f8f8f2}.highlight .il{color:#ae81ff}@font-face{font-family:GeneralEnclosedFoundicons;src:url(../fonts/general_enclosed_foundicons.eot);src:url(../fonts/general_enclosed_foundicons.eot?#iefix) format("embedded-opentype"),url(../fonts/general_enclosed_foundicons.woff) format("woff"),url(../fonts/general_enclosed_foundicons.ttf) format("truetype"),url(../fonts/general_enclosed_foundicons.svg#GeneralEnclosedFoundicons) format("svg");font-weight:400;font-style:normal}
+
 #doc{
 	width:850px;
 	position: relative;
