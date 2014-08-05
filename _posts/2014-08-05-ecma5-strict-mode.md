@@ -41,13 +41,10 @@ var a=012; //!!! syntax error
 {% endhighlight %}
 
 - 严格模式下禁止使用with
-
 - 不允许通过eval执行的js代码向外层作用域增加变量
 
 > 如果在严格模式下执行eval，则eval的执行上下文也是以严格模式执行
 
 - 禁止对eval和arguments赋值
-
 - 不允许通过arguments[0]与函数的第一个参数进行双向绑定，即通过arguments[0]可以获取第一个参数arg1的值，但更改arg1的值不会反映到arguments[0]中。
-
 - arguments.callee不再支持
