@@ -14,7 +14,8 @@ pre code{
 	margin:1em 0 1.5em;
 	background-color: #ede8d5;
 	line-height: 140%;
-	font-weight: bold;
+	font-size: 1.1em;
+	font-weight: 700;
 }
 code{
 	background-color: rgba(0,0,0,.08);
