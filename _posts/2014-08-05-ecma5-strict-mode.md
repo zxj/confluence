@@ -48,3 +48,28 @@ var a=012; //!!! syntax error
 - 禁止对eval和arguments赋值
 - 不允许通过arguments[0]与函数的第一个参数进行双向绑定，即通过arguments[0]可以获取第一个参数arg1的值，但更改arg1的值不会反映到arguments[0]中。
 - arguments.callee不再支持
+- 禁止普通函数内部通过this引用全局对象
+{% highlight javascript %}
+//未使用严格模式
+function fn(){
+	return !this; //this指向window
+}
+fn() //返回false
+
+function fn(){
+	"use strict"
+
+	return !this; //报错
+}
+{% endhighlight %}
+- 函数声明必须在顶层
+{% highlight javascript %}
+"use strict";
+
+if(true){
+	function f(){} //报错
+}
+for(var i=0;i<10;i++){
+	function fn(){} //报错
+}
+{% endhighlight %}
